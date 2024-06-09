@@ -1,10 +1,10 @@
 import argparse
 import os
 import sys
-from dotenv import load_dotenv
 from streamlit.web import cli as stcli
 from utils.process import process
 
+from dotenv import load_dotenv
 # Load environment variables from a .env file (containing OPENAI_API_KEY)
 load_dotenv()
 
